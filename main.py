@@ -1,10 +1,10 @@
-from fastApi import FastAPI
+from fastapi import FastAPI
 
 app = FastAPI()
 users = [
     {"id": 1, "nom": "Andry", "age":23},
     {"id": 2, "nom": "Tsanta", "age":24},
-    {"id": 3, "nom": "Le", "age":30}
+    {"id": 3, "nom": "Leoner", "age":30},
 ]
 
 
